@@ -1,0 +1,27 @@
+# JnanaVerse – Enhanced Requirements
+# Core ML frameworks
+torch>=2.1.0
+transformers>=4.40.0
+tokenizers>=0.19.0
+
+# Web framework for enhanced chatbot
+flask>=3.0.0
+
+# CLI enhancements (optional but recommended)
+colorama>=0.4.6
+
+# Additional NLP tasks (automatically included with transformers)
+# - NER: Uses built-in transformers pipelines
+# - Sentiment Analysis: Uses built-in transformers pipelines  
+# - Sanskrit Translation: facebook/nllb-200-distilled-600M
+
+# Optional: adapter fine-tuning
+# adapters>=0.2.0
+
+# Core utilities
+numpy>=1.26.0
+tqdm>=4.66.0
+
+# Development/testing (optional)
+# pytest>=7.0.0
+# black>=23.0.0

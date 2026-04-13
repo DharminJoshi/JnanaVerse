@@ -1,0 +1,21 @@
+# JnanaVerse – requirements.txt
+# Core
+torch>=2.1.0
+transformers>=4.40.0
+tokenizers>=0.19.0
+
+# Sanskrit translation — facebook/nllb-200-distilled-600M
+# No extra installs needed; sentencepiece is bundled with transformers.
+
+# Web chatbot
+flask>=3.0.0
+
+# CLI chatbot (optional, for coloured output)
+colorama>=0.4.6
+
+# Optional: adapter fine-tuning
+# adapters>=0.2.0
+
+# Utilities
+numpy>=1.26.0
+tqdm>=4.66.0
