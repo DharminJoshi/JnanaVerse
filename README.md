@@ -1,4 +1,4 @@
-# JnanaVerse v2.0
+# JnanaVerse
 
 **Open-Source Multi-Task NLP Framework**  
 *Developer(s): Dharmin Joshi / DevKay*
